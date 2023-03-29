@@ -1,0 +1,26 @@
+body{
+    background-color: #57C5B6;
+    overflow: hidden;
+}
+
+.ball{
+    background-image: linear-gradient(to right,#1A5F7A, #159895,#159895);
+    height: 300px;
+    width:300px;
+    border-radius: 100%;
+    box-shadow: inset 20px 10px 15px white;
+margin:5vh auto;
+animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+    0%   {margin:5vh auto;}
+  
+    50%  {margin:50vh auto;
+        box-shadow: inset 30px 40px 40px white;
+    }
+    
+    100% {margin:5vh auto;}
+  }
+
